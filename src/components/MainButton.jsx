@@ -81,7 +81,7 @@ const MainButton = () => {
           }
           onClick={toggleOptions}
         >
-          <h2 className={selectedOptions.length > 2 ? "smaller" : "larger"}>
+          <h2 className={selectedOptions.length > 1 ? "smaller" : "larger"}>
             {selectedOptions.join(", ")}
           </h2>
           {selectedOptions.length > 0 ? (
